@@ -129,6 +129,10 @@ document.getElementById('menu-top-button').addEventListener('click', toggleMenu,
 }
 ```
 
+![menu mobile closed](./images/menu-mobile-closed.png)
+
+![menu mobile opened no animation](./images/menu-mobile-opened-no-animation.png)
+
 3.e. Add CSS animation.
 
 ```
@@ -147,3 +151,5 @@ document.getElementById('menu-top-button').addEventListener('click', toggleMenu,
   transform: translateY(-2px) rotate(-45deg);
 }
 ```
+
+![menu mobile opened with animation](./images/menu-mobile-opened-with-animation.png)
